@@ -1,0 +1,111 @@
+body,dl,dd,p,h1,h2,h3,h4,h5,h6{
+				padding: 0;
+				margin: 0;
+			}
+			body,div,p,a,span,h1,h2,h3,h4,h5,h6{
+				font-size: 12px;
+				font-family: "微软雅黑";
+			}
+			a{
+				text-decoration: none;
+			}
+			input{
+				border: 0 none;/*去掉边框*/
+				outline-style: none;/*去掉轮廓线*/
+			}
+			/*ul{
+				list-style: none;
+			}*/
+			/*头部分开始*/
+.box{
+	width:595px ;
+	height: 842px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	overflow: hidden;
+	border-width:4px  ;
+	border-style: dotted;
+	border-color: beige;
+	box-shadow:0 0 40px rgba(0, 204, 204, .5);
+}
+.l-box{
+	width:220px ;
+	height: 1080px;
+	background-color: lightblue;
+	float: left;
+	overflow: hidden;
+}
+.r-box{
+	width:375px ;
+	height: 1080px;
+	background-image: linear-gradient(to bottom, darkblue, gray 50%, darkblue);
+	float: right;
+	overflow: hidden;
+}
+.photo{
+	width: 160px;
+	height: 160px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.lbl{
+	display:block;
+	text-align: center;
+}
+.lbll{
+	display:block;
+	padding-left: 10px;
+}
+.lblll{
+	display:block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.bc{
+	width: 220px;
+	height: 100px;
+	margin: 10 auto;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: white;
+	font-weight: 700;
+}
+a{
+   font-size: 30px;
+   
+}
+a:link{
+	background-color: red;
+}
+a:hover{
+	background-color: green;
+}
+a:active{
+	background-color: yellow;
+}
+/*ul 
+{
+list-style-image: url("img/简历照片.png")
+}
+li
+{
+list-style-type:none;
+background:url("D:\HBUIDER\XUEXIBIJI\img\bg.gif")no-repeat center left;
+padding-left: 20px ;
+}*/
+ul {
+  list-style-image: url(../img/bg.gif);
+  
+  }
+ .abc{
+	display:block;
+	padding-left: 10px;
+} 
+.abc::first-line{
+	text-transform: uppercase;
+}
+.abc::first-letter{
+	font-size: 2em;
+	background-color: gainsboro;
+	/*float: left;*/
+}
